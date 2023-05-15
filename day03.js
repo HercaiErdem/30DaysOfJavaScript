@@ -135,12 +135,11 @@ console.log(date.getSeconds()) // 22
 console.log(date.getTime()) // 1684158279232
 
 const now = new Date()
-const year = now.getFullYear() // return year
-const month = now.getMonth() + 1 // return month(0 - 11)
-const date02 = now.getDate() // return date (1 - 31)
-const hours = now.getHours() // return number (0 - 23)
-const minutes = now.getMinutes() // return number (0 -59)
+let year = now.getFullYear(),
+ month = now.getMonth(),
+ date02 = now.getDate(),
+ hours = now.getHours(),
+ minutes = now.getMinutes() 
 
-console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // Mon May 15 2023 16:47:23 GMT+0300 (GMT+03:00)/5/2023 16:47
-
+ console.log(`${date02}/${month}/${year} ${hours}:${minutes}`) // 15/4/2023 17:2
 
