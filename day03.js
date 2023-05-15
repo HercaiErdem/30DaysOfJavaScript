@@ -35,27 +35,27 @@ console.log(isEqual,isExaclyEqual,isGreater,isGreaterThan) // true false false t
 console.log('Hercai' == 'Sevval') //false
 console.log('Hercai'.length == 'Sevval'.length) //true
 
-let name01= 'Mehmet'
-let named02= 'Berk'
+let name01= 'Mehmet',
+  named02= 'Berk'
 console.log(name01.length!=named02.length) //true
 
 //Logical Operators
 // && ampersand operator example
-let check01 = 5<6
-let check02= 2<9
+let check01 = 5<6,
+  check02= 2<9
 console.log(check01&&check02) //true
 console.log(5<9 && 10<=6) //false
 
 // || pipe or operator, example
-let check03 = 4>=4
-let check04 = 3.3<2
+let check03 = 4>=4,
+   check04 = 3.3<2
 console.log(check03 || check04) //true
 console.log(5>9 || 10<=6) //false
 console.log(5<9 || 10>6) //true
 
 //! Negation examples
-let check05 = 5
-let check06 = 6
+let check05 = 5,
+   check06 = 6
 console.log(!(check05<check06)) // false
 console.log(!(check05>check06)) // true
 
