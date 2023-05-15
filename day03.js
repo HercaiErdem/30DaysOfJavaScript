@@ -60,19 +60,16 @@ console.log(!(check05<check06)) // false
 console.log(!(check05>check06)) // true
 
 // Ternary Operators
+
 // condition ? True : False
  let isMarried = true
- ? console.log('You must treat each other well ') // // You must treat each other well
+ ? console.log('You must treat each other well ')  // You must treat each other well
  : console.log ("You  find someone who loves you")
 
  let isMarried02 = false
  ? console.log('You must treat each other well ')
- : console.log ("You  find someone who loves you") //// You  find someone who loves you
+ : console.log ("You  find someone who loves you") // You  find someone who loves you
 
- let num01= 5
- let num02 = 10
- ? console.log("You are good at math") // You are good at math
-: console.log("You should study more math")
 
  // Operator Precedence
 console.log(3*4/(6+6)) //1
@@ -94,7 +91,7 @@ const b = 2
 //can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
 
 // let promptName = prompt("Enter your name and Surname", "Enter here")
-//console.group(promptName) ****************************************** YORUMA ALDİM AMA TEKRAR EDERKEN BAK
+//console.log(promptName) ****************************************** YORUMA ALDİM AMA TEKRAR EDERKEN BAK
 
 
 // let promptPhoneNum = prompt('Please Enter Your Phone Number', "Enter Your Phone Number Here!")
