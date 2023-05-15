@@ -200,27 +200,3 @@ let numF = "87.6"
 let numFloat = "98.4"
 let numFloatToInt = parseInt(numFloat)
 console.log(numFloatToInt) // 98
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
