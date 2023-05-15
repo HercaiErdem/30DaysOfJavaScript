@@ -72,13 +72,13 @@ console.log(!(check05>check06)) // true
  let num01= 5
  let num02 = 10
  ? console.log("You are good at math") // You are good at math
- : console.log("You should study more math")
+: console.log("You should study more math")
 
  // Operator Precedence
 console.log(3*4/(6+6)) //1
 const a = 8
 const b = 2
-console.log(a/b*(a-b)) //24
+//console.log(a/b*(a-b)) //24
 
                              // Window Methods
 // Window alert() method
@@ -107,7 +107,40 @@ console.log(a/b*(a-b)) //24
 // let isDelete = confirm("Are you sure you like to delete?")
  //console.log(isDelete)
 
-let agree = confirm('Are you sure you like to delete?')
-? console.log("Silme islemi basarili")
-: console.log("Silme islemi gerceklestirilemedi")
+//let agree = confirm('Are you sure you like to delete?')
+//? console.log("Silme islemi basarili")
+//: console.log("Silme islemi gerceklestirilemedi")
+
+// Date Object
+/*
+In JavaScript current time and date is created using JavaScript Date Object. 
+The object we create using Date object provides many methods to work with date and time.
+The methods we use to get date and time information from a date object values are started with a word get.
+ getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()
+*/
+// Creating a time object
+//Once we create time object. The time object will provide information about time.
+const date = new Date()
+
+console.log(date) //Mon May 15 2023 16:22:09 GMT+0300 (GMT+03:00)
+console.log(date.getFullYear() ) //2023
+console.log(date.getMonth()) // 4 because the month is May month(0-11)
+console.log(date.getDate()) // 15 because the day of the month is 15th,  day(1-31)
+console.log(date.getDay()) // 1, because the day is Monday which is the first day
+//  Sunday is 0, Monday is 1 and Saturday is 6
+// Getting the weekday as a number (0-6)
+console.log(date.getHours()) // 16
+console.log(date.getMinutes()) // 30
+console.log(date.getSeconds()) // 22
+console.log(date.getTime()) // 1684158279232
+
+const now = new Date()
+const year = now.getFullYear() // return year
+const month = now.getMonth() + 1 // return month(0 - 11)
+const date02 = now.getDate() // return date (1 - 31)
+const hours = now.getHours() // return number (0 - 23)
+const minutes = now.getMinutes() // return number (0 -59)
+
+console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // Mon May 15 2023 16:47:23 GMT+0300 (GMT+03:00)/5/2023 16:47
+
 
