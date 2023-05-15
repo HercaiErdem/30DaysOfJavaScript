@@ -51,7 +51,6 @@ let age = 25
     console.log(nameLegth)
 
     //2. Accessing characters in a string: Index
-
     let string = "Javascript guzel bir dil"
     let firstLetter = string[0]
     
