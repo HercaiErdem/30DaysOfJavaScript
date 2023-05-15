@@ -12,12 +12,12 @@ console.log(num1**=num2) // 590490000000000
 
 let number1 = 20
 let number2 = 2
-let sum = number1 + number2
-let diff = number1 - number2
-let mulf = number1 * number2
-let div = number1 / number2
-let powerOf = number1 ** number2
-let remainder = number1 % number2
+let sum = number1 + number2,
+  diff = number1 - number2,
+   mulf = number1 * number2,
+   div = number1 / number2,
+   powerOf = number1 ** number2,
+   remainder = number1 % number2
 console.log(sum, diff, mulf, div, powerOf, remainder) // 22 18 40 10 400 0
 
 // Comparison Operators
@@ -25,10 +25,10 @@ console.log(sum, diff, mulf, div, powerOf, remainder) // 22 18 40 10 400 0
 let sampleNum01 = 10
 let sampleNum02 = '10'
 
-let isEqual = sampleNum01==sampleNum02 // variable a bakiyor
-let isExaclyEqual = sampleNum01=== sampleNum02 // hem variable a hem data type
-let isGreater = sampleNum02>sampleNum01
-let isGreaterThan =sampleNum02>=sampleNum01
+let isEqual = sampleNum01==sampleNum02, // variable a bakiyor
+   isExaclyEqual = sampleNum01=== sampleNum02 // hem variable a hem data type
+   isGreater = sampleNum02>sampleNum01,
+   isGreaterThan =sampleNum02>=sampleNum01
 
 console.log(isEqual,isExaclyEqual,isGreater,isGreaterThan) // true false false true
 
