@@ -37,12 +37,12 @@ if(isSunny){
     console.log("You do not need to wear sunglasses") //You do not need to wear sunglasses
 }
 
-//let result = prompt("10 + 10 kac eder?", "10 + 10")
-//if(result== "20"){
-  //  console.log("Tebrikler dogru cevabi verdin!")
-//}else{
-  //  console.log("Uzgunum cevabin yanlis")
-//}
+let result = prompt("10 + 10 kac eder?", "10 + 10")
+if(result== "20"){
+    console.log("Tebrikler dogru cevabi verdin!")
+}else{
+   console.log("Uzgunum cevabin yanlis")
+}
 
  // If Else if Else
 
@@ -78,12 +78,12 @@ console.log(b + " is a negative number")
 }
 // 0 is not a number
 
-let result = prompt("Bir sayi giriniz!")
-if(result>0){
+let number = prompt("Bir sayi giriniz!")
+if(number>0){
     console.log( "This is a positive number")
-}else if(result<0){
+}else if(number<0){
     console.log("This is a negative number")
-}else if(result==0){
+}else if(number==0){
     console.log("This is zero")
 }else{
     console.log("This is not a number")
@@ -100,12 +100,68 @@ if (weather === 'winter') {
   console.log('No need for rain coat.')
 }
 
+// Switch
+// Switch is an alternative for if else if else else. 
 
+//switch(caseValue){
+  //case 1:
+      // code
+    //  break
+    // case 2:
+     // code
+     // break
+    // case 3:
+     // code
+     //break
+    //default:
+     // code
+  //}
 
+let monthUserInput= prompt("What month is it now?")
+let month = monthUserInput.toLowerCase()
+switch(month){
+    case "january":
+        console.log("Month is january" )
+  break
+  case "february":
+        console.log("Month is february" )
+  break
+  case "march":
+    console.log("Month is march" )
+break
+case "april":
+    console.log("Month is april" )
+break
+case "may":
+    console.log("Month is may" )
+break
+case "june":
+    console.log("Month is june" )
+break
+case "july":
+    console.log("Month is july" )
+break
+case "august":
+    console.log("Month is august" )
+break
+case "september":
+    console.log("Month is september" )
+break
+case "october":
+    console.log("Month is october" )
+break
+case "november":
+    console.log("Month is november" )
+break
+case "december":
+    console.log("Month is december" )
+break
+default :
+console.log("It is not a month")
 
+}
 
-
-
-
-
-
+// Ternary Operators
+console.log(
+    result==20 ? "Dogru cevap" : "Yanlis Cevap"
+)
