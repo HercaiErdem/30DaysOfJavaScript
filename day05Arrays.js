@@ -55,21 +55,49 @@ console.log(splitStr[strLastLetter]) // day
 // Modifying array element
 //An array is mutable(modifiable). Once an array is created, we can modify the contents of the array elements.
 
+const nmbrs = [1, 4, 10, 100, -45, 5.8]
 
+nmbrs[4] = 45
+let lastIndexNumbr = nmbrs.length-1
+nmbrs[lastIndexNumbr] =  6
+console.log(nmbrs) // [1, 4, 10, 100, 45, 6]
 
+// Methods to manipulate array
+// These are some of the available methods to deal with arrays:Array, length, concat, indexOf, slice,
+// splice, join, toString, includes, lastIndexOf, isArray, fill, push
 
+//Array Constructor
+const emptyArr =Array()
+const tenEmptyArr = Array(10)
+console.log(tenEmptyArr) //10) [empty × 10]
 
+//Creating static values with fill
 
+const tenHercaiValues = tenEmptyArr.fill("Hercai")
+console.log(tenHercaiValues) //(10) ['Hercai', 'Hercai', 'Hercai', 'Hercai', 'Hercai', 'Hercai', 'Hercai', 'Hercai', 'Hercai', 'Hercai']
 
+const twoEmptyArr = Array(2)
+const two4Values= twoEmptyArr.fill(4)
+console.log(two4Values) //(2) [4, 4]
 
+// Concatenating array using concat -> Birleştirmek
 
+const day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+const num = [1, 2, 3, 4, 5, 6, 7]
+const season = ["winter", "spring", "summer", "fall"]
+const dayAndNum = day.concat(num) 
+console.log(dayAndNum) //14 ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 1, 2, 3, 4, 5, 6, 7]
+const numAndDay = num.concat(day) 
+console.log(numAndDay) //14 [1, 2, 3, 4, 5, 6, 7, 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
+const thirdList = season.concat(day, num)
+console.log(thirdList) //18) ['winter', 'spring', 'summer', 'fall', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 1, 2, 3, 4, 5, 6, 7]
 
+//Getting array length
+console.log(num.length) // 7
 
-
-
-
-
-
+// indexOf:To check if an item exist in an array. If it exists it returns the index else it returns -1.
+console.log(num.indexOf(8)) //-1
+console.log(num.indexOf(6)) //5
 
 
