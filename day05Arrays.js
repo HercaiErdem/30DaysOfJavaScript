@@ -113,3 +113,50 @@ if(index== -1){
 console.log(index== -1 ? "This vegetable does not exist in the array" : "This vegetable does exist in the array") //This vegetable does exist in the array
 
 // includes:To check if an item exist in an array. If it exist it returns the true else it returns false.
+
+const capitalCity= ["Tokyo", "Istanbul", "Berlin", "London"]
+console.log(capitalCity.includes("istanbul"))
+
+let includesOfCity = capitalCity.includes("London") //false
+console.log(includesOfCity) //true
+
+// Array.isArray:To check if the data type is an array
+
+console.log(Array.isArray(capitalCity)) //true
+let name = "Hercai"
+console.log(Array.isArray(name)) //false
+
+let nameSplit= name.split("")
+console.log(Array.isArray(nameSplit)) //true
+
+//toString:Converts array to string
+
+const persInfo = ["Hercai", "Erdem", 25, "Ankara"]
+let stringPersInfo= persInfo.toString()
+console.log(stringPersInfo) // Hercai,Erdem,25,Ankara
+
+// join: It is used to join the elements of the array, the argument we passed in the join method will be 
+//joined in the array and return as a string
+
+let joinPersInfo= persInfo.join()
+console.log(joinPersInfo) //Hercai,Erdem,25,Ankara
+console.log(persInfo.join("$")) //Hercai$Erdem$25$Ankara
+console.log(persInfo.join("|")) // Hercai|Erdem|25|Ankara
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
