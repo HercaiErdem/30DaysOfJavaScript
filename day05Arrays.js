@@ -100,4 +100,16 @@ console.log(num.length) // 7
 console.log(num.indexOf(8)) //-1
 console.log(num.indexOf(6)) //5
 
+const vegetable = ["Zukkini", "Pepper", "Cucumber", "Cauliflower", "Celery"]
+let index = vegetable.indexOf("Zukkini")
 
+if(index== -1){
+    console.log("This vegetable does not exist in the array")
+}else{
+    console.log("This vegetable does exist in the array")
+}
+//This vegetable does exist in the array
+
+console.log(index== -1 ? "This vegetable does not exist in the array" : "This vegetable does exist in the array") //This vegetable does exist in the array
+
+// includes:To check if an item exist in an array. If it exist it returns the true else it returns false.
