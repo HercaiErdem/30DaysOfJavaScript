@@ -141,7 +141,62 @@ console.log(stringPersInfo) // Hercai,Erdem,25,Ankara
 let joinPersInfo= persInfo.join()
 console.log(joinPersInfo) //Hercai,Erdem,25,Ankara
 console.log(persInfo.join("$")) //Hercai$Erdem$25$Ankara
-console.log(persInfo.join("|")) // Hercai|Erdem|25|Ankara
+console.log(persInfo.join(" | ")) // Hercai | Erdem | 25 | Ankara
+
+// Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
+
+console.log(capitalCity) // ['Tokyo', 'Istanbul', 'Berlin', 'London']
+
+console.log(capitalCity.slice()) //['Tokyo', 'Istanbul', 'Berlin', 'London']
+console.log(capitalCity.slice(0)) // ['Tokyo', 'Istanbul', 'Berlin', 'London']
+
+let sliceCapitalCity = capitalCity.slice(0, capitalCity.length-1)
+console.log(sliceCapitalCity) // ['Tokyo', 'Istanbul', 'Berlin']
+
+let sliceCapitalCity02 = capitalCity.slice(1,3)
+console.log(sliceCapitalCity02) // ['Istanbul', 'Berlin']
+
+// Push: adding item in the end.
+
+console.log(persInfo) //['Hercai', 'Erdem', 25, 'Ankara']
+
+persInfo.push(1.66)
+console.log(persInfo) //['Hercai', 'Erdem', 25, 'Ankara', 1.66]
+
+// pop: Removing item in the end.
+
+let fruits = ['banana', 'orange', 'mango', 'lemon', "strawberry"]
+
+fruits.pop()
+console.log(fruits) // ['banana', 'orange', 'mango', 'lemon']
+
+// shift: Removing one array element in the beginning of the array.
+
+console.log(fruits) // ['banana', 'orange', 'mango', 'lemon']
+
+fruits.shift()
+console.log(fruits) //['orange', 'mango', 'lemon']
+
+//unshift: Adding array element in the beginning of the array.
+fruits.unshift("apple")
+console.log(fruits) // ['apple', 'orange', 'mango', 'lemon']
+
+// reverse: reverse the order of an array. (Tersten yazdirma)
+
+fruits.reverse()
+console.log(fruits) // ['lemon', 'mango', 'orange', 'apple']
+
+let myName = "Hercai"
+let revese = myName.split("").reverse().join("")
+console.log(revese) //iacreH
+
+//Array can store different data types including an array itself
+
+const numbersAndLetters= [1,3, [0,8,77], "A","V"]
+
+console.log(numbersAndLetters[0]) // 1
+console.log(numbersAndLetters[2][2]) // 77
+
 
 
 
