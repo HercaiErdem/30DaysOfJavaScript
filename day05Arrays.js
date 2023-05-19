@@ -13,8 +13,8 @@ console.log(arr02) //[]
 
 // Create an array with values
 
-const numbers = [2, 3, 0, 9.9, -10]
-const cities = ["Ankara", "New York", "Toronto", "Sidney"]
+const numbers = [2, 3, 0, 9.9, -10],
+  cities = ["Ankara", "New York", "Toronto", "Sidney"]
 
 console.log(numbers,cities) // (5) [2, 3, 0, 9.9, -10] (4) ['Ankara', 'New York', 'Toronto', 'Sidney']
 console.log("Numbers of cities: "+ cities.length) // Numbers of cities: 4
@@ -37,8 +37,8 @@ console.log(splitSentence) // ["Alanya's", 'weather', 'is', 'awesome']
 
 // Accessing array items using index
 
-let str ="Hello today is a great day"
-let splitStr = str.split(" ")
+let str ="Hello today is a great day",
+  splitStr = str.split(" ")
 console.log(splitStr) //['Hello', 'today', 'is', 'a', 'great', 'day']
 
 let strFirstLetter = splitStr[0]
@@ -67,8 +67,8 @@ console.log(nmbrs) // [1, 4, 10, 100, 45, 6]
 // splice, join, toString, includes, lastIndexOf, isArray, fill, push
 
 //Array Constructor
-const emptyArr =Array()
-const tenEmptyArr = Array(10)
+const emptyArr =Array(),
+  tenEmptyArr = Array(10)
 console.log(tenEmptyArr) //10) [empty × 10]
 
 //Creating static values with fill
@@ -186,8 +186,8 @@ console.log(fruits) // ['apple', 'orange', 'mango', 'lemon']
 fruits.reverse()
 console.log(fruits) // ['lemon', 'mango', 'orange', 'apple']
 
-let myName = "Hercai"
-let revese = myName.split("").reverse().join("")
+let myName = "Hercai",
+  revese = myName.split("").reverse().join("")
 console.log(revese) //iacreH
 
 //Array can store different data types including an array itself

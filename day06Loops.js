@@ -38,8 +38,8 @@ for(i=0; i<numbers.length; i++){
 }
 console.log(sum) //45
 
-const numbers02= [0, 10, 3, 5, 6, 7]
-const newArr = []
+const numbers02= [0, 10, 3, 5, 6, 7],
+   newArr = []
 sum = 0
 for(let i = 0; i < numbers02.length; i++){
   newArr.push( numbers02[i] ** 2)
