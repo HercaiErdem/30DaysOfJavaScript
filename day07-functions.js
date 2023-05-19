@@ -63,4 +63,68 @@ function muliThreeNmbrs(){
 }
 console.log("The result is: " + muliThreeNmbrs()) //The result is: -14
 
-// 
+// Function with a parameter
+
+function areaOfCircle(r){
+
+    let area = Math.PI*r*r
+    return area
+}
+console.log("Area of circle is: " +areaOfCircle(5)) // Area of circle is: 78.53981633974483
+
+  
+  function programmingLanguages(pl01, pl02, pl03) {
+    let fullProgLan= pl01 + pl02 + pl03
+    return fullProgLan
+
+  }
+  console.log(programmingLanguages("Java", "Javascript", "C#")) //JavaJavascriptC#
+
+
+  function programmingLanguages(pl01, pl02, pl03) {
+    let fullProgLan= pl01 + pl02 + pl03
+    return fullProgLan
+
+  }
+  let pl01= "Java",
+  pl02 = "Javascript",
+  pl03 = "C#"
+  console.log(programmingLanguages(pl01, pl02, pl03 )) //JavaJavascriptC#
+
+
+function sumArr(arr){
+let sum = 0 
+for(let i = 0; i<arr.length; i++) {
+sum+= arr[i]
+}
+return sum;
+}
+ const arr = [2, 10, 25, 100]
+  console.log(sumArr(arr)) // 137
+
+//Anonymous function or without name => funtion yerine data type in adini yazarak olusturdugumuz function'lardir.
+
+const anonymousFunc= function(word){
+console.log(word)
+}
+ let word = "Hello!"
+ anonymousFunc(word) //Hello!
+
+ // Arrow Function
+ // This is how we write normal or declaration function
+
+function square(n) {
+    return n * n
+  }
+  let n= 2
+  console.log(square(n)) // 4
+  
+//Arrow Function Sample
+const square02 = n => {
+    return n*n
+}
+let n02 = 2
+console.log(square02(n02)) //4
+  
+  // if we have only one line in the code block, it can be written as follows, explicit return
+//  const square = n => n * n  // -> 4
