@@ -196,22 +196,3 @@ const numbersAndLetters= [1,3, [0,8,77], "A","V"]
 
 console.log(numbersAndLetters[0]) // 1
 console.log(numbersAndLetters[2][2]) // 77
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -48,17 +48,3 @@ for(let i = 0; i < numbers02.length; i++){
 console.log(newArr)  // [0, 100, 9, 25, 36, 49]
 
 // while loop: for ile ayni gorevi yapiyor.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
