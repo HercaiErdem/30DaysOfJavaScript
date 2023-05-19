@@ -49,11 +49,8 @@ console.log(newArr)  // [0, 100, 9, 25, 36, 49]
 
 // while loop: for ile ayni gorevi yapiyor.
 
-let i = 0
-while(i<=4){
-    console.log(i)
-i++
-}
+
+
 
 
 
