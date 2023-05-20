@@ -126,4 +126,25 @@ const square02 = n => {
 let n02 = 2
 console.log(square02(n02)) //4
   
+
+const myFirstName = myName => {
+  return myName
+}
+let myName ="Hercai"
+console.log(myFirstName(myName)) //Hercai
+
+//console.log(myFirstName("Hercai")) //Hercai
+
+// SOR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+const multiThreeNmbrs = (nm1, nm2, nm3) => {
+
+return `${nm1}+ ${nm2} +${nm3}`
+}
+let nm1= 1,
+      nm2= 10,
+      nm3= 5
+console.log(multiThreeNmbrs())
+console.log(multiThreeNmbrs(nm1, nm2, nm3)) //
+
+
  
