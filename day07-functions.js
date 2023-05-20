@@ -126,5 +126,4 @@ const square02 = n => {
 let n02 = 2
 console.log(square02(n02)) //4
   
-  // if we have only one line in the code block, it can be written as follows, explicit return
-//  const square = n => n * n  // -> 4
+ 
