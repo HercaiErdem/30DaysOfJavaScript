@@ -165,7 +165,7 @@ const person02 = {
 }
 
 }
-console.log(person02)
+//console.log(person02)
 
 const formatter = new Intl.ListFormat('en', { style: 'short', type: 'disjunction' });
 
@@ -176,7 +176,7 @@ person02.city = "Sidney"
 person02["phone number"] = +407878787878
 person02.isMarried = true
 person02.title = "QA" // yeni bir key create edebiliriz burda
-person02.natianality = "Turkish"
+person02.nationality = "Turkish"
 person02.skills.push("React") // skill array oldugu icin push ile ekleme yapabiliriz
 person02.skills.push("Node")
 
@@ -186,5 +186,24 @@ person02.getPersonInfo = function(){
 return skills
 }
 
-console.log(person02.getPersonInfo()) // Java, Js, HTML, CSS, React, or Node
-console.log(person02)
+//console.log(person02.getPersonInfo()) // Java, Js, HTML, CSS, React, or Node
+//console.log(person02)
+
+// Object.keys: To get the keys or properties of an object as an array
+const keys = Object.keys(person);
+console.log(keys) // ['firstName', 'lastName', 'age', 'phone number', 'country', 'city', 'skills', 'getFullName']
+const keys02 = Object.keys(person02)
+console.log(keys02) 
+
+// Object.values:To get values of an object as an array
+const values = Object.values(person)
+console.log(values) //['Hercai', 'Erdem', 25, 8766767676789, 'Canada', 'Toronto', Array(4), ƒ]
+
+//hasOwnProperty: To check if a specific key or property exist in an object
+
+console.log(person.hasOwnProperty('firstName'));
+console.log(person.hasOwnProperty("title"))
+console.log(person.hasOwnProperty("nationality"))
+
+console.log(person02.hasOwnProperty("title"))
+console.log(person02.hasOwnProperty("nationality"))
