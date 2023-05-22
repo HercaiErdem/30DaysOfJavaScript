@@ -1,6 +1,6 @@
 
 // Scope(Kapsam)
-//  scope of variables when we use var or let.
+// scope of variables when we use var or let.
 // Variable can be declared globally or locally scope
 // Anything declared without let, var or const is scoped at global level.
 
