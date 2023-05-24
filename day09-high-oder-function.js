@@ -21,11 +21,37 @@
   // }
   // setInterval(callback, duration)
 
-  function sayHello(){
-console.log("Hello")
+//   function sayHello(){
+// console.log("Hello")
 
-  }
-setInterval(sayHello,1000) // // it prints hello in every second, 1000ms is 1s
+//   }
+// setInterval(sayHello,1000) // // it prints hello in every second, 1000ms is 1s
 
 //setTimeout higher order function to execute some action at some time in the future. 
+
+// syntax
+//function callback() {
+    // code goes here
+ // }
+
+  //setTimeout(callback, duration) // duration in milliseconds => Kodu ayarladigimiz zamanda calistiriyor.
+
+//   function sayHello2(){
+//  console.log("Hello2")
+
+//   }
+//   setTimeout(sayHello2, 2000)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
