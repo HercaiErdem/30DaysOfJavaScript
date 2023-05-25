@@ -129,3 +129,12 @@ sort: The sort methods arranges the array elements either ascending or descendin
 By default, the sort() method sorts values as strings.This works well for string array items but not for numbers. 
 If number values are sorted as strings and it give us wrong result. Sort method modify the original array.
 */
+
+// Sorting string values
+
+const products = ['Milk', 'Coffee', 'Sugar', 'Honey', 'Blue Berry', 'Lettuce']
+console.log(products.sort()) //['Blue Berry', 'Coffee', 'Honey', 'Lettuce', 'Milk', 'Sugar']
+//Now the original products array  is also sorted
+
+const names = ["hercai", "memet", "merve", "süreyya", "elnur", "mustafa"]
+console.log(names.sort()); // ['elnur', 'hercai', 'memet', 'merve', 'mustafa', 'süreyya']
