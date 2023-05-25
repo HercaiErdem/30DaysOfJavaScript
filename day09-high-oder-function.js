@@ -79,8 +79,53 @@ console.log(
   cities.map(city => city.toUpperCase())
 )
 
-const fruits =["Apple", ""]
+const fruits =["Apple", "Banana", "Strawberry", "Watermelon"]
+
+const upperFruits= fruits.map((fruit) => fruit.toUpperCase())
+
+console.log(upperFruits)
 
 
+const fruitsFirstTwoLetters = fruits.map((fruit) =>
+  fruit.toLowerCase().slice(0, 2)
+)
+console.log(fruitsFirstTwoLetters);
 
+// filter
+// Filter out items which full fill filtering conditions and return a new array.
 
+const scores = [
+  { name: 'Asabeneh', score: 95 },
+   { name: 'Lidiya', score: 98 },
+  { name: 'Mathias', score: 80 },
+  { name: 'Elias', score: 50 },
+  { name: 'Martha', score: 85 },
+  { name: 'John', score: 100 },
+]
+
+const scoresGreaterEighty = scores.filter((score) => score.score > 90)
+console.log(scoresGreaterEighty)
+
+const countries = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya',
+]
+const countriesHaveFiveLetters = countries.filter(
+  (country) => country.length === 5
+)
+console.log(countriesHaveFiveLetters)
+
+/*
+sort: The sort methods arranges the array elements either ascending or descending order. 
+By default, the sort() method sorts values as strings.This works well for string array items but not for numbers. 
+If number values are sorted as strings and it give us wrong result. Sort method modify the original array.
+*/
