@@ -43,14 +43,43 @@
 //   setTimeout(sayHello2, 2000)
 
 
+// Functional Programming
+/*
+Instead of writing regular loop, latest version of JavaScript introduced lots of built in methods which can 
+help us to solve complicated problems. All builtin methods take callback function. In this section, we will see 
+forEach, map, filter, reduce, find, every, some, and sort.
+*/
 
+//forEach
 
+let sum = 0;
+const numbers = [1,3,5,7];
+numbers.forEach(num=> sum += num)
 
+console.log(sum)
 
+let upperCities = []
+let cities = ["Ankara", "Sidney", "Toronto", "Malta"]
 
+cities.forEach(city => upperCities.push(city.toUpperCase()))
+// console.log("cities ",cities)
+// console.log("upper cities ",upperCities);
 
+/*
+push()
+ Varolan bir Array içerisine yeni bir item atamaya yarar 
+örn: ["item1","item2"].push("item3") şu şekilde bir çıktı verir ["item1","item2","item3"]
+*/
 
+// map: 
+//Iterate an array elements and modify the array elements. It takes a callback function with 
+//elements, index , array parameter and return a new array.
 
+console.log(
+  cities.map(city => city.toUpperCase())
+)
+
+const fruits =["Apple", ""]
 
 
 
