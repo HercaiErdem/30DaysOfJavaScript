@@ -36,7 +36,7 @@
 
   //setTimeout(callback, duration) // duration in milliseconds => Kodu ayarladigimiz zamanda calistiriyor.
 
-//   function sayHello2(){
+//  function sayHello2(){
 //  console.log("Hello2")
 
 //   }
@@ -130,7 +130,7 @@ By default, the sort() method sorts values as strings.This works well for string
 If number values are sorted as strings and it give us wrong result. Sort method modify the original array.
 */
 
-// Sorting string values
+//Sorting string values
 
 const products = ['Milk', 'Coffee', 'Sugar', 'Honey', 'Blue Berry', 'Lettuce']
 console.log(products.sort()) //['Blue Berry', 'Coffee', 'Honey', 'Lettuce', 'Milk', 'Sugar']
