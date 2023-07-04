@@ -4,11 +4,11 @@
 let num1= 3
 let num2 = 10
 
-console.log(num1+=num2) //13
-console.log(num1-=num2) //7
-console.log(num1*=num2) //30
-console.log(num2/num1) // 0.3333333333333333
-console.log(num1**=num2) // 590490000000000
+console.log(num1+=num2)  //13
+console.log(num1-=num2)  //7
+console.log(num1*=num2)  //30
+console.log(num2/num1)   //0.3333333333333333
+console.log(num1**=num2) //590490000000000
 
 let number1 = 20
 let number2 = 2
@@ -20,7 +20,7 @@ let sum = number1 + number2,
    remainder = number1 % number2
 console.log(sum, diff, mulf, div, powerOf, remainder) // 22 18 40 10 400 0
 
-// Comparison Operators
+//Comparison Operators
 
 let sampleNum01 = 10
 let sampleNum02 = '10'
@@ -40,7 +40,7 @@ let name01= 'Mehmet',
 console.log(name01.length!=named02.length) //true
 
 //Logical Operators
-// && ampersand operator example
+//&& ampersand operator example
 let check01 = 5<6,
   check02= 2<9
 console.log(check01&&check02) //true
@@ -108,8 +108,8 @@ const b = 2
 //? console.log("Silme islemi basarili")
 //: console.log("Silme islemi gerceklestirilemedi")
 
-// Date Object
-/*
+ /* Date Object
+
 In JavaScript current time and date is created using JavaScript Date Object. 
 The object we create using Date object provides many methods to work with date and time.
 The methods we use to get date and time information from a date object values are started with a word get.
