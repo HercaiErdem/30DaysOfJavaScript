@@ -91,8 +91,8 @@ const fruitsFirstTwoLetters = fruits.map((fruit) =>
 )
 console.log(fruitsFirstTwoLetters);
 
-// filter
-// Filter out items which full fill filtering conditions and return a new array.
+//filter
+//Filter out items which full fill filtering conditions and return a new array.
 
 const scores = [
   { name: 'Asabeneh', score: 95 },
