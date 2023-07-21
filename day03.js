@@ -139,4 +139,3 @@ let year = now.getFullYear(),
  minutes = now.getMinutes() 
 
  console.log(`${date02}/${month}/${year} ${hours}:${minutes}`) // 15/4/2023 17:2
-
