@@ -48,7 +48,7 @@ let age = 25
    //1. length:
    let name02 = "Hercai Sevval"
    let nameLegth =name02.length
-    console.log(nameLegth)
+    console.log(nameLegth) //13
 
     //2. Accessing characters in a string: Index
     let string = "Javascript guzel bir dil"
