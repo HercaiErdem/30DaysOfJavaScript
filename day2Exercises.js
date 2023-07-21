@@ -12,9 +12,18 @@ console.log(namedLength) // 21
 //Print D letter on the browser console using console.log()
 let dLetter = named[3]
 console.log(dLetter) //D
+
+let yLetter = named[5]
+console.log(yLetter)
+
 //Change all the string characters to capital letters using toUpperCase() method
 let strToUpperCase = named.toLocaleUpperCase()
 console.log(strToUpperCase) // 30 DAYS OF JAVASCRIPT
+
+let myName = "hercai erdem"
+let toUpperCaseMyCase = myName.toLocaleUpperCase();
+console.log(toUpperCaseMyCase)
+
 //Change all the string characters to lowercase letters using toLowerCase() method
 let strToLowerCase = named.toLowerCase()
 console.log(strToLowerCase) // 30 days of javascript
