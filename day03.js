@@ -70,6 +70,10 @@ console.log(!(check05>check06)) // true
  ? console.log('You must treat each other well ')
  : console.log ("You  find someone who loves you") // You  find someone who loves you
 
+let isYouHardworking = false
+? console.log("Well done! keep doing exactly like that")
+: console.log('You should study more')
+
 
  // Operator Precedence
 console.log(3*4/(6+6)) //1
