@@ -144,6 +144,26 @@ if (weather === 'winter') {
      // code
   //}
 
+let numbers = prompt("Bir sayi giriniz")
+switch(numbers){
+
+case  (numbers> 0) :
+     console.log(numbers + " pozitif bi sayidir")
+  break
+  
+  case (numbers== 0 ):
+       console.log(numbers + " nötür bir sayidir")
+ break
+
+ case (numbers < 0) :
+       console.log(numbers+ " negatif bir sayidir")
+ break
+ 
+ default :
+       console.log("Girdiğiniz karakter bir sayi değildir")
+
+ }
+
 let monthUserInput= prompt("What month is it now?")
 let month = monthUserInput.toLowerCase()
 switch(month){
