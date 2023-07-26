@@ -77,7 +77,7 @@ let age = 25
     //4. toLowerCase(): this method changes the string to lowercase letters.
 
     let countryName= "AmeriCa"
-    console.log(country.toLowerCase())
+    console.log(countryName.toLowerCase())
 
 let company = "YiLDiz"
 let companyLowerCase = company.toLowerCase()
