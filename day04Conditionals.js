@@ -10,7 +10,7 @@
 
   let num = -10
   if(num<=0){
-  console.log(num +" is a negative number ") // -10 is a negative number 
+  console.log(num +" number is a negative number ") // -10 is a negative number 
   }
 
   // If Else
@@ -26,7 +26,7 @@ let num02 = -4
 if(num02>0){
     console.log("This is a positive number")
 }else
-console.log("This is a negative number") // This is a negative number
+console.log( num02+" number is a negative number") // This is a negative number
 
 let isSunny = true
 
@@ -37,12 +37,39 @@ if(isSunny){
     console.log("You do not need to wear sunglasses") //You do not need to wear sunglasses
 }
 
-let result = prompt("10 + 10 kac eder?", "10 + 10")
+let isMemetLivenInAlanya = false;
+
+if(isMemetLivenInAlanya){
+
+console.log("Memet lives in Alanya")
+
+}else{
+    
+    console.log("Memet has been living in Kadirli for a while" )
+
+}
+
+
+let result = prompt("10 + 10 kac eder?", "sonucu buraya yazin")
 if(result== "20"){
     console.log("Tebrikler dogru cevabi verdin!")
 }else{
    console.log("Uzgunum cevabin yanlis")
 }
+
+
+//let  memetsJob = prompt("Memet'in mesleği nedir?", "Buraya yazin")
+//if(memetsJob== "full + full stack developer"){
+
+  //  console.log("Tebrikler! Memet'in mesleğini bildiniz" )
+
+// } else{
+
+// console.log("Yanlis cevap verdiniz, Memet full + full stack developer")
+//}
+
+
+
 
  // If Else if Else
 
