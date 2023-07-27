@@ -101,6 +101,12 @@ console.log(dayAndNum) //14 ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Fri
 const numAndDay = num.concat(day) 
 console.log(numAndDay) //14 [1, 2, 3, 4, 5, 6, 7, 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
+const lessons = ["mat", "fen", "müzik", "tarih"]
+const hoursOfLessons = [5, 5, 1, 3]
+const lessonsAndHoursOfLessons = lessons.concat(hoursOfLessons)
+console.log(lessonsAndHoursOfLessons)
+
+
 const thirdList = season.concat(day, num)
 console.log(thirdList) //18) ['winter', 'spring', 'summer', 'fall', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 1, 2, 3, 4, 5, 6, 7]
 
@@ -120,6 +126,12 @@ if(index== -1){
     console.log("This vegetable does exist in the array")
 }
 //This vegetable does exist in the array
+
+
+
+
+
+
 
 console.log(index== -1 ? "This vegetable does not exist in the array" : "This vegetable does exist in the array") //This vegetable does exist in the array
 
