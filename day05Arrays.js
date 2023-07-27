@@ -15,9 +15,12 @@ console.log(arr02) //[]
 
 const numbers = [2, 3, 0, 9.9, -10],
   cities = ["Ankara", "New York", "Toronto", "Sidney"]
+   cousins = ["Hercai", 25, "Merve", 24, "Sureyya", 20]
 
-console.log(numbers,cities) // (5) [2, 3, 0, 9.9, -10] (4) ['Ankara', 'New York', 'Toronto', 'Sidney']
+
+console.log(numbers,cities, cousins) // (5) [2, 3, 0, 9.9, -10] (4) ['Ankara', 'New York', 'Toronto', 'Sidney']..........
 console.log("Numbers of cities: "+ cities.length) // Numbers of cities: 4
+console.log(cousins.length)
 
 //Array can have items of different data types
 
@@ -30,6 +33,14 @@ console.log(personelInfo.length) // 5
 let javaWord= "Java"
 let splitJavaWord = javaWord.split('')
 console.log(splitJavaWord) // ['J', 'a', 'v', 'a']
+
+let myFirstName = "hercai"
+ let toUpperMyFirtName = myFirstName.toUpperCase()
+ let splitToUpperMyFirtName = toUpperMyFirtName.split('')
+
+ console.log(splitToUpperMyFirtName)
+
+
 
 let sentence = "Alanya's weather is awesome"
 let splitSentence = sentence.split(' ')
@@ -169,6 +180,9 @@ let fruits = ['banana', 'orange', 'mango', 'lemon', "strawberry"]
 
 fruits.pop()
 console.log(fruits) // ['banana', 'orange', 'mango', 'lemon']
+
+fruits.pop()
+console.log(fruits)
 
 // shift: Removing one array element in the beginning of the array.
 
