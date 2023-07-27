@@ -39,7 +39,7 @@ for(i=0; i<numbers.length; i++){
 }
 console.log(sum) //45
 
-const numbers02= [0, 10, 3, 5, 6, 7],
+const numbers02= [0, 10, 3, 5, 6, 7]
    newArr = []
 sum = 0
 for(let i = 0; i < numbers02.length; i++){
@@ -49,3 +49,16 @@ for(let i = 0; i < numbers02.length; i++){
 console.log(newArr)  // [0, 100, 9, 25, 36, 49]
 
 // while loop: for ile ayni gorevi yapiyor.
+
+const numbers03 =[3, 4, 7, 11]
+sum = 0 
+for(i=0 ; i<numbers03.length ; i++){
+
+sum = sum + numbers03[i]
+
+}
+
+console.log("sum03: " + sum)
+
+
+
