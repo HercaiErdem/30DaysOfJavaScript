@@ -145,6 +145,3 @@ let nm1= 1,
       nm3= 5
 console.log(multiThreeNmbrs())
 console.log(multiThreeNmbrs(nm1, nm2, nm3)) //
-
-
- 
