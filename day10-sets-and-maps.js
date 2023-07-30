@@ -46,12 +46,40 @@ console.log(setOfNames.size) // set lerde length method unu degil size method un
 console.log(setOfNames.has("Sevval"))
 
 
+const fruits = [
+"apple",
+"banana",
+"pineapple",
+"apple",
+"strawberry",
+"berry",
+"banana"
 
+]
+const setOfFruits = new Set(fruits)
+console.log(setOfFruits.size)
+console.log(setOfFruits)
 
+//Union of sets
 
+let a = [1,2,3,4,5,6,7]
+let b = [5,6,7,8,9,10]
+let c = [...a, ...b]
+console.log(new Set(c))
 
+// Intersection of sets
 
+let B = new Set(b)
 
+let intersectionC =  a.filter((num)=>B.has(num))
+let C = new Set(intersectionC)
+console.log(C)
+
+// MAP
+// Creating an empty Map
+
+const map = new Map() 
+console.log(map)
 
 
 
