@@ -138,3 +138,4 @@ console.log(products.sort()) //['Blue Berry', 'Coffee', 'Honey', 'Lettuce', 'Mil
 
 const names = ["hercai", "memet", "merve", "süreyya", "elnur", "mustafa"]
 console.log(names.sort()); // ['elnur', 'hercai', 'memet', 'merve', 'mustafa', 'süreyya']
+
