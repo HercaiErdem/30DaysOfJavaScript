@@ -30,15 +30,22 @@ const pattern03 = /love/i
 const result = pattern03.test(str)
 console.log(result)
 
+const testedString = "Merhaba bugun cok calistim ve BUGUN masa tenisi oynamaya gittim"
+testedStringPattern = /BugUN/gi
+const testString =testedStringPattern.test(testedString)
+console.log("bugun: "+testString)
+
+
+
 const comment = prompt("Bana iltifat et")
-const word = /güzel/i
+ word = /güzel/i
 const testWord = word.test(comment)
  console.log(testWord)
 
 
 // match() returns an array containing the pattern, index, input and group
 
-const string = "L love myself and I LOVE my world"
+const string = "I love myself and I LOVE my world"
 const pattern04 = /love/gi
 const matchControl = string.match(pattern04)
 console.log(matchControl)
@@ -62,6 +69,11 @@ I recommend python for a first programming language"
 
 replaceTxt = txt.replace(/python/gi, "JavaScript")
 console.log(replaceTxt)
+
+
+let myReplaceStr = "Hi! I am a QA and I love my job and my world, I just come to here and want to say that because I really feel lucky girl in the world"
+ replaceStr = myReplaceStr.replace(/MY/gi, "**")
+console.log(replaceStr)
 
 const txt02 = '%I a%m te%%a%%che%r% a%n%d %% I l%o%ve te%ach%ing.\
 T%he%re i%s n%o%th%ing as m%ore r%ewarding a%s e%duc%at%i%ng a%n%d e%m%p%ow%er%ing \
