@@ -30,10 +30,10 @@ const pattern03 = /love/i
 const result = pattern03.test(str)
 console.log(result)
 
-//const comment = prompt("Bana iltifat et")
-//const word = /güzel/i
-//const testWord = word.test(comment)
-// console.log(testWord)
+const comment = prompt("Bana iltifat et")
+const word = /güzel/i
+const testWord = word.test(comment)
+ console.log(testWord)
 
 
 // match() returns an array containing the pattern, index, input and group
@@ -48,12 +48,12 @@ console.log(matchControl)
 const searchControl = string.search(pattern04)
 console.log(searchControl)
 
-/*
+
 const sntc = prompt("write my full name")
  searchMyName = /hercai/gi
 const searchMyNameControl = sntc.search(searchMyName)
 console.log(searchMyNameControl)
-*/
+
 
 // replace(): Executes a search for a match in a string, and replaces the matched substring with a replacement substring.
 
@@ -128,3 +128,8 @@ const sentence= "Hello! my name is Hercai"
 pattern = (/^hello!/i)
 startWith = sentence.match(pattern)
 console.log(startWith)
+
+const name = "taylant"
+const patternName = /e?t$/i 
+const testPatternName = patternName.test(name)
+console.log(testPatternName)
