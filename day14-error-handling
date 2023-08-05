@@ -1,0 +1,15 @@
+
+let age = prompt("Yasinizi giriniz")
+
+
+try{
+    
+if (age>100) throw new Error("Yalan soyluyosun!")
+
+} catch(e) {
+
+    // alert("Yasiniz hakkinda yalan soyluyosunuz")
+  alert(e.message)
+
+
+} 
