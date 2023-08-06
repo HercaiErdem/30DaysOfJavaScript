@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "name":"hercai",
+            "surname":"erdem",
+            "age":25,
+            "skills":[
+                "java",
+                "javasript",
+                "selenium"
+                ]
+                },
+                {
+                    "name":"memet",
+                    "surname":"demirel",
+                    "age":23,
+                    "skills":[
+                        "react",
+                        "javasript",
+                        "go",
+                        "c++"
+                        ]
+                        }
+                        ]
+                    }
