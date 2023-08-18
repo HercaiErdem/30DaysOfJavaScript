@@ -26,7 +26,7 @@ to improve code re-useability and maintainabilit
 
  // arrays
 
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+// const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const numbers = [0, 3.14, 9.81, 37, 98.6, 100]
 const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
 const languages = ['Amharic', 'Arabic', 'English', 'French', 'Spanish']
@@ -46,7 +46,23 @@ for ( let i = 90; i < 100; i++){
     console.log(i)
 }
 
+// declaring an array variable
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 
+// iterating an array using regular for loop
+let len = names.length;
+for(let i = 0; i < len; i++){
+    console.log(names[i].toUpperCase())
+}
+
+
+// iterating an array using for of
+for( const name of names) {
+    console.log(name.toUpperCase())
+}
+
+// iterating array using forEach 
+names.forEach((name) => name.toUpperCase())
 
 
 
