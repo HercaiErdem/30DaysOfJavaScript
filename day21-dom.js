@@ -27,5 +27,67 @@ for(let i = 0; i< len; i++){
  console.info( secondTitle)
 
  const thirdTitle = document.getElementById("third-title")
- console.log(thirdTitle)
+ console.info(thirdTitle)
+
+const allTitles = document.querySelectorAll('h1') 
+console.log(allTitles.length) // 4
+for (let i = 0; i < allTitles.length; i++) {
+  console.log(allTitles[i])
+}
+
+allTitles.forEach(title => console.log(title))
+const allTitles02 = document.querySelectorAll('.title') // the same goes for selecting using class
+
+
+const title = document.getElementById("title")
+
+// title.style.color = 'purple'
+// title.style.background= " pink"
+// title.title  = "Hercai loves JS"
+
+title.setAttribute("style", "color:purple; background:pink")
+title.setAttribute("title", "Hercai loves JS")
+
+
+
+const titles = document.querySelectorAll('h1')
+titles.forEach((title, i) => {
+
+    title.style.fontSize ='15px' // all titles will have 24px font size
+
+    if(i % 2 ==0){
+        title.style.color ='pink'
+        title.style.background= 'purple'
+        title.title ='Nice'
+    }else{
+
+        title.style.color ='purple'
+        title.style.background= 'pink'
+        title.title ='Beautiful girl'
+    }
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
