@@ -16,8 +16,23 @@ button.addEventListener( "event", e => {
 //Click
 button.addEventListener("click", function(e){
 
-    console.info("Butona tikladin")
+    console.info("Button double clicked!")
 
+})
 
+// Double Click
+
+ const button02 = document.getElementById("btn")
+
+button02.addEventListener( "dblclick", function(e){
+    console.log(e)
+
+}) 
+
+// Mouse Enter
+const button03 = document.getElementById("btn")
+
+button03.addEventListener( "mouseenter", function(e){
+    console.log(e)
 })
 
