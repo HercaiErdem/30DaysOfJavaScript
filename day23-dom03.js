@@ -13,11 +13,11 @@ button.addEventListener( "event", e => {
 
 }) // bu da arrow funtion li kullanimi
 
+//Click
 button.addEventListener("click", function(e){
 
     console.info("Butona tikladin")
 
-    
 
 })
 
