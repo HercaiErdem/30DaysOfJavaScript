@@ -65,10 +65,13 @@ colorInput.addEventListener("input", e => {
     document.body.style.background = e.target.value
 })
 
+const saveRulesCheckBox = document.getElementById("save-rules")
+
 const saveButton = document.getElementById("save-btn")
 saveButton.addEventListener("click", e=>{
     console.log(
         input.value,
-        colorInput.value
+        colorInput.value,
+        saveRulesCheckBox.checked
     )
 })
